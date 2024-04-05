@@ -16,7 +16,7 @@ public class index{
 
 
         int op;
-
+        cadastrarInsumos insumo = new cadastrarInsumos();
         while(true){
             try{
                 System.out.println("---------------------");
@@ -32,24 +32,35 @@ public class index{
 
                 switch (op) {
                     case 0:
+                        sc.close();
                         break;
+
                     case 1:
                         System.out.println("Insira o nome do Usuario");
-                    
+
 
                     case 2:
 
                     case 3:
+                        System.out.println("Insira o nome do Insumo");
+                        insumo.setNome(sc.nextLine());
 
+                        System.out.println("Insira a quantidade de insumos");
+                        insumo.setQuantidade(sc.nextInt());
+
+                        System.out.println("Insira o valor do Insumo");
+                        insumo.setPreco(sc.nextDouble());
+                        return;
                     case 4:
-
+                        ListaDeInsumos lista = new ListaDeInsumos();
+                        lista.exibirTodosInsumos();
                     case 5:
 
                 }
             }catch(java.util.InputMismatchException e){
                 System.out.println("Erro: Entrada inválida. Por favor, digite um número valido.");
             }
-            
+
         }
     }
 }

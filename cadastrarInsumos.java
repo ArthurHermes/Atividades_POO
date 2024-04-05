@@ -6,11 +6,7 @@ public class cadastrarInsumos {
     private int quantidade;
     private double preco;
 
-    public cadastrarInsumos(String nome, int quantidade, double preco) {
-        this.nome = nome;
-        this.quantidade = quantidade;
-        this.preco = preco;
-    }
+  
 
     public String getNome() {
         return nome;
