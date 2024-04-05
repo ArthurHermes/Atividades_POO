@@ -15,9 +15,10 @@ public class index{
         //0 - Sair
 
 
-        int op;
-        cadastrarInsumos insumo = new cadastrarInsumos();
+
         while(true){
+            int op;
+            cadastrarInsumos insumo = new cadastrarInsumos();
             try{
                 System.out.println("---------------------");
                 System.out.println("1 - Cadastrar Usuario");
@@ -27,7 +28,8 @@ public class index{
                 System.out.println("5 - Criar Pedido");
                 System.out.println("0 - Sair");
                 System.out.println("---------------------");
-                System.out.println("Selecione a baixo a opcao que deseja realizar");
+                System.out.println("Selecione a baixo a opcao que deseja realizar: ");
+
                 op = sc.nextInt();
 
                 switch (op) {
