@@ -38,29 +38,31 @@ public class index{
                         break;
 
                     case 1:
-                        System.out.println("Insira o nome do Usuario");
-
+                        Usuario.criarUsuario();
+                        System.out.println("Usuario cadastrado com sucesso!");
+                        return;
 
                     case 2:
-
+                        Usuario.print();
                     case 3:
-                        System.out.println("Insira o nome do Insumo");
+                        System.out.println("Insira o nome do Insumo:");
                         insumo.setNome(sc.nextLine());
 
-                        System.out.println("Insira a quantidade de insumos");
+                        System.out.println("Insira a quantidade de insumos:");
                         insumo.setQuantidade(sc.nextInt());
 
-                        System.out.println("Insira o valor do Insumo");
+                        System.out.println("Insira o valor do Insumo:");
                         insumo.setPreco(sc.nextDouble());
                         return;
                     case 4:
                         ListaDeInsumos lista = new ListaDeInsumos();
                         lista.exibirTodosInsumos();
+                        return;
                     case 5:
 
                 }
             }catch(java.util.InputMismatchException e){
-                System.out.println("Erro: Entrada inválida. Por favor, digite um número valido.");
+                System.out.println("Erro: Entrada invalida. Por favor, digite um numero valido.");
             }
 
         }
