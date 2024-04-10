@@ -35,7 +35,7 @@ public class cadastrarInsumos {
     public void exibirInsumo() {
         System.out.println("Nome: " + nome);
         System.out.println("Quantidade: " + quantidade);
-        System.out.println("Preço: " + preco);
+        System.out.println("Preco: " + preco);
     }
 }
 
