@@ -1,0 +1,4 @@
+produto
+roupa - camiseta - calça - jaqueta
+tenis - esportivo - casual
+acessorios - bone - mochila - meia
