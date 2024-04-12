@@ -5,4 +5,5 @@ public class Produto {
     private String marca;
     private String cor; // Exemplo: Preto, Branco, Azul //
     private String modelo; // Exemplo: Oversized, Reta, Slim //
+
 }
