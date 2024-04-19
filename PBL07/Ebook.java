@@ -1,7 +1,6 @@
 package PBL07;
 
 public class Ebook extends ItemBibliotecaDigital implements Baixavel {
-<<<<<<< HEAD
     private String formato;
     private int tamanhoMB;
 
@@ -15,7 +14,6 @@ public class Ebook extends ItemBibliotecaDigital implements Baixavel {
         return "Nome"+ titulo +"autor"+ autor;
     }
 
-=======
     @Override
     public String descricao() {
         // TODO Auto-generated method stub
@@ -27,6 +25,5 @@ public class Ebook extends ItemBibliotecaDigital implements Baixavel {
         // TODO Auto-generated method stub
         
     }
->>>>>>> ccc880acd16496d4a6bc3f6bff7aa62beb49289e
 }
 
