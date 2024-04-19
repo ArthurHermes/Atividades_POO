@@ -8,4 +8,5 @@ public abstract class ItemBibliotecaDigital {
         this.autor = autor;
     }
     public abstract String descricao();
+
 }
