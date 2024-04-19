@@ -1,10 +1,9 @@
 package PBL07;
 
-public class main {
+public class Main {
     public static void main(String[] args) {
-        //Ebook ebook = new Ebook("POO", "marina", "teste");
-        //VideoDigital video = new VideoDigital("the walking dead", "ricardo", "teste");
-
+        Ebook ebook = new Ebook("marina", "poo");
+        VideoDigital video = new VideoDigital("poo", "teste");
         
     }
 }

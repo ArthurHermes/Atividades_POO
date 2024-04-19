@@ -1,18 +1,14 @@
 package PBL07;
 
 class VideoDigital extends ItemBibliotecaDigital implements Baixavel, Visualizar {
-    private String formato;
-    private int resolucao;
     
-    public VideoDigital(String titulo, String autor, String formato, int resolucao) {
+    public VideoDigital(String titulo, String autor) {
         super(titulo, autor);
-        this.formato = formato;
-        this.resolucao = resolucao;
     }
     
     @Override
     public String descricao() {
-        return "Video Digital: " + titulo + " - Autor: " + autor + " - Formato: " + formato + " - Resolução: " + resolucao + "p";
+        return "Video Digital: " + titulo + " - Autor: " + autor;
     }
     
     @Override
