@@ -1,4 +1,6 @@
-class VideoDigital extends ItemBibliotecaDigital implements Baixavel, Visualizavel {
+package PBL07;
+
+class VideoDigital extends ItemBibliotecaDigital implements Baixavel, Visualizar {
     private String formato;
     private int resolucao;
     
