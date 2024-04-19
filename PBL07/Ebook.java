@@ -13,13 +13,6 @@ public class Ebook extends ItemBibliotecaDigital implements Baixavel {
     public String descricao(){
         return "Nome"+ titulo +"autor"+ autor;
     }
-
-    @Override
-    public String descricao() {
-        // TODO Auto-generated method stub
-        return null;
-    }
-
     @Override
     public void baixar() {
         // TODO Auto-generated method stub
