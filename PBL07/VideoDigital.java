@@ -21,7 +21,7 @@ class VideoDigital extends ItemBibliotecaDigital implements Baixavel, Visualizar
     }
     
     @Override
-    public void imprimir() {
+    public void visualizar() {
         System.out.println("Visualizando o vídeo digital: " + titulo);
     }
 }
