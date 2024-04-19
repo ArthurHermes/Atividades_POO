@@ -1,5 +1,6 @@
 package PBL07;
 
-public class Ebook  extends ItemBibliotecaDigital{
+public class Ebook extends ItemBibliotecaDigital implements {
     
 }
+
