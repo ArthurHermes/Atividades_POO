@@ -1,4 +1,4 @@
-class VideoDigital extends ItemBibliotecaDigital implements Baixavel, Visualizavel {
+class VideoDigital extends ItemBibliotecaDigital implements Baixavel, Visualizar {
     private String formato;
     private int resolucao;
     
@@ -19,7 +19,7 @@ class VideoDigital extends ItemBibliotecaDigital implements Baixavel, Visualizav
     }
     
     @Override
-    public void visualizar() {
+    public void imprimir() {
         System.out.println("Visualizando o vídeo digital: " + titulo);
     }
 }
